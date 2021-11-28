@@ -127,6 +127,10 @@ h3 {
   height: 48px;
 }
 
+.btn-nav {
+  height: 1px;
+}
+
 /*  ---------------------------------------------------------
 <contact form
 -------------------------------------------------------------*/
@@ -327,6 +331,20 @@ h3 {
 .sub-menu-item a:hover,
 .menu-item:hover > a {
   color: var(--main-color);
+}
+
+.menu-item-btn {
+  display: inline-block;
+  margin-right: 40px;
+  position: relative;
+}
+.menu-item-btn > a {
+  display: block;
+
+  font-weight: 400;
+  color: var(--WHITE);
+  text-transform: capitalize;
+  transition: color 0.1s ease;
 }
 
 .sub-menu {
@@ -659,7 +677,7 @@ textarea.form-control {
 }
 
 /*  ---------------------------------------------------------
-< coursessidebar
+< courses sidebar
 -------------------------------------------------------------*/
 .course-sidebar .img-box {
   margin-bottom: 20px;
