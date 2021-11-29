@@ -519,6 +519,30 @@ h3 {
 }
 
 /*  ---------------------------------------------------------
+<about section
+-------------------------------------------------------------*/
+.section-about {
+  padding-left: 100px;
+  margin-bottom: 160px;
+  width: 100%;
+  height: 100vh;
+}
+
+.image-section > img {
+  width: 500px;
+  height: 400px;
+  padding-left: 30px;
+}
+
+.facebook {
+  margin-right: 12px;
+}
+
+.twitter {
+  margin-right: 12px;
+}
+
+/*  ---------------------------------------------------------
 <course instructor
 -------------------------------------------------------------*/
 
