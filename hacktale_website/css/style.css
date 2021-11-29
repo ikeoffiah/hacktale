@@ -240,8 +240,8 @@ h3 {
 }
 
 .courses-item .img-box img {
-  width: 250px;
-  height: 220px;
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
 }
 
@@ -328,9 +328,16 @@ h3 {
   transition: color 0.1s ease;
 }
 
-.sub-menu-item a:hover,
-.menu-item:hover > a {
+.header .sub-menu-item a:hover,
+.header .menu-item:hover > a {
   color: var(--main-color);
+}
+
+.header .menu-item a i > {
+  font-size: 13px;
+  margin-left: 3px;
+  pointer-events: none;
+  transition: transform 0.3s ease;
 }
 
 .menu-item-btn {
@@ -347,7 +354,7 @@ h3 {
   transition: color 0.1s ease;
 }
 
-.sub-menu {
+.header .sub-menu {
   position: absolute;
   top: 100%;
   background-color: var(--white);
@@ -490,6 +497,10 @@ h3 {
   font-size: 14px;
   right: 0;
   top: 0;
+}
+
+.course-curriculum ul li i:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .course-curriculum ul li i {
