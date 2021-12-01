@@ -176,6 +176,135 @@ h3 {
 }
 
 /*  ---------------------------------------------------------
+<Team
+-------------------------------------------------------------*/
+.profile-area {
+  padding: 80px 0;
+}
+
+.card {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.img1 img {
+  height: 200px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  width: 100%;
+}
+
+.img2 img {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin-top: -80px;
+}
+
+.card:hover .img2 img {
+  border-color: var(--orange);
+  transition: 0.7s;
+}
+
+.main-text {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.main-text h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.main-text p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.socials {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.socials i {
+  font-size: 20px;
+  color: var(--orange);
+  padding: 0 10px;
+}
+
+/*  ---------------------------------------------------------
+<details section
+-------------------------------------------------------------*/
+
+.headings {
+  font-size: 16px;
+}
+
+.heading-para {
+  font-weight: 700;
+}
+
+/*  ---------------------------------------------------------
+<potential section
+-------------------------------------------------------------*/
+.potential-head {
+  font-weight: 300;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+/*  ---------------------------------------------------------
+<card section
+-------------------------------------------------------------*/
+.potential-card:not(:last-child) {
+  margin-right: 20px;
+}
+
+.potential-card {
+  background: linear-gradient(#ffffff, #ffffff) padding-box,
+    /*this is your grey background*/ linear-gradient(to right, #9c20aa, #fb3570)
+      border-box;
+  color: #313149;
+  padding: 10px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.card-title {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.card-text {
+  padding-bottom: 20px;
+}
+
+.course-card:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.course-card {
+  border: 2px solid;
+  outline: none;
+  border-color: #edcb9e;
+  box-shadow: 0 0 10px #edcb9e;
+}
+
+.ima {
+  height: 100%;
+}
+
+/*  ---------------------------------------------------------
 <fun facts
 -------------------------------------------------------------*/
 
@@ -204,6 +333,13 @@ h3 {
 }
 .fun-facts-item .style-4 {
   color: var(--orange-light);
+}
+
+.icon {
+  display: inline;
+  float: left;
+  font-size: 60px;
+  margin-right: 0px;
 }
 
 /*  ---------------------------------------------------------
@@ -797,6 +933,16 @@ textarea.form-control {
 .banner-section {
   padding: 80px 0;
   min-height: 680px;
+}
+
+.banner-section2 {
+  padding: 80px 0;
+  min-height: 380px;
+}
+
+.banner-section3 {
+  padding: 80px 0;
+  min-width: 380px;
 }
 
 .banner-text h2 {

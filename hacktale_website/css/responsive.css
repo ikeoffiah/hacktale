@@ -5,6 +5,10 @@
     max-width: 100%;
     --bs-gutter-x: 30px;
   }
+
+  .prof {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 991px) {

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Courses Details </title>
+  <title> Contact </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/font-awesome.css">
@@ -9,597 +9,349 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
+
+  <style>
+    .cover{
+       /* The image used */
+  background-image: url("img/cybersecurity.jpg");
+
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 15px;
+
+    }
+
+    .roll{
+      padding-top: 55px;
+      padding-bottom: 55px;
+      
+    }
+
+    .banner3{
+      margin-bottom: 60px;
+    }
+
+    .accordion{
+      padding-bottom: 50px;
+    }
+
+    .title-1{
+      color: #ffffff;
+    }
+
+    .cover{
+      border: 15px;
+      
+    }
+
+    .program-title{
+      padding-top: 15px;
+      padding-bottom: 30px;
+    }
+
+   
+    .intro::before{
+  position: absolute;
+  content: '';
+  background: #283593;
+  height: 28px;
+  width: 28px;
+  /* Added lines */
+  top:2rem;
+  right:-0.5rem;
+  transform : rotate(45deg);
+  z-index: -5;
+}
+
+.intro::after{
+  position: absolute;
+  content: 'SYLLABUS';
+  top: 11px;
+  right: -14px;
+  padding: 0.5rem;
+  width: 10rem;
+  background: #3949ab;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
+
+    @media (max-width: 1199px) {
+      .cover{
+        border-radius: 0px;
+      }
+    }
+  </style>
 </head>
 <body>
 
  <!-- main wrapper start -->
 
  <div class="main-wrapper">
-
-
- <!-- main header start -->
- <header class="header">
-  <div class="container">
-   <div class="header-main d-flex justify-content-between align-items-center">
-     <div class="header-logo">
-       <a href="index.html"><span>Logo</span></a>
-     </div>
-     <button type="button" class="header-hamburger-btn js-header-menu-toggler">
-       <span></span>
-     </button>
-     <div class="header-backdrop js-header-backdrop"></div>
-     <nav class="header-menu js-header-menu">
-       <button type="button" class="header-close-btn js-header-menu-toggler">
-         <i class="fas fa-times"></i>
-       </button>
-       <ul class="menu">
-         <li class="menu-item"><a href="index.html">Home</a></li>
-         <li class="menu-item menu-item-has-children">
-           <a href="#" class="js-toggle-sub-menu">Academy <i class="fas fa-chevron-down"></i></a>
-         <ul class="sub-menu js-sub-menu">
-             <li class="sub-menu-item"><a href="courses.html">Course</a></li>
-             <li class="sub-menu-item"><a href="course-detail.html">Detail Course</a></li>
-         </ul>
-         </li>
-         <li class="menu-item"><a href="contact.html" >Contact</a></li>
-         <li class="menu-item-btn"><a href="login.html" class="btn btn-theme">Log In</a></li>
-       </ul>
-     </nav>
-   </div>
- </div>
  
 
-  <!-- main header end -->
-
-
-
-
-<!--breadcrumb starts-->
-
-<div class="breadcrumb-nav">
+  <!-- main header start -->
+  <header class="header">
     <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-              <li class="breadcrumb-item"><a href="index.html">Course</a></li>
-              <li class="breadcrumb-item active" aria-current="page">Course detail</li>
-            </ol>
-          </nav>
+     <div class="header-main d-flex justify-content-between align-items-center">
+       <div class="header-logo">
+         <a href="index.html"><span>Logo</span></a>
+       </div>
+       <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+         <span></span>
+       </button>
+       <div class="header-backdrop js-header-backdrop"></div>
+       <nav class="header-menu js-header-menu">
+         <button type="button" class="header-close-btn js-header-menu-toggler">
+           <i class="fas fa-times"></i>
+         </button>
+         <ul class="menu">
+           <li class="menu-item"><a href="index.html">Home</a></li>
+           <li class="menu-item menu-item-has-children">
+             <a href="#" class="js-toggle-sub-menu">Academy <i class="fas fa-chevron-down"></i></a>
+           <ul class="sub-menu js-sub-menu">
+               <li class="sub-menu-item"><a href="courses.html">Course</a></li>
+               <li class="sub-menu-item"><a href="course-detail.html">Detail Course</a></li>
+           </ul>
+           </li>
+           <li class="menu-item"><a href="business.html" >Business</a></li>
+           <li class="menu-item"><a href="contact.html" >Contact</a></li>
+           <li class="menu-item-btn"><a href="login.html" class="btn btn-theme">Log In</a></li>
+         </ul>
+       </nav>
+     </div>
+   </div>
+  
+    <!-- main header end -->
+
+
+    
+    <!-- banner section start -->
+<section class="banner-section2 d-flex align-items-center">
+  <div class="container cover">
+    <div class="row roll align-items-center">
+      <div class="col-md-12">
+        <div class="banner-text">
+          <h3 class="mb-3 title-1 text-center">Hacktale cybersecurity</h3>
+          <h1 class="mb-3 title-1 text-capitalize text-center">Introduction to Cybersecurity</h1>
+          <p class="mb-4 title-1 text-center">Put an explanation of your service Put an explanation of your service Put an explanation of your service Put an explanation here Put an explanation here Put an explanation here </p>
+          <div class="col-12 text-center mt-3">
+            <a href="courses.html" class="btn btn-primary">Download Curricullum</a> <a href="courses.html" class="btn btn-theme">Enroll Now</a>
+            </div>
+        </div>
+      </div>
     </div>
-</div>
-<!--breadcrumb ends-->
+  </div>
+</section>
+<!-- banner section end -->
 
-<!--corse detail section start-->
 
-<div class="course-details section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8">
-                <!--corse header starts-->
-                    <div class="course-header box">
-                        <h2 class="text-capitalize">Cyber Secruity</h2>
-                        <div class="rating">
-                            <span class="average-rating">(5)</span>
-                        <span class="average-stars">
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                          <i class="fas fa-star"></i>
-                        </span>
-                        <span class="reviews">(430 Reviews)</span>
-                        </div>
-                        <ul>
-                            <li>Enrolled students - <span>220</span></li>
-                            <li>Created by - <span>Elo Amadi</span></li>
-                            <li>Last Updated - <span>10/10/2021</span></li>
-                            <li>Deadline - <span>12/11/2021</span></li>
-                        </ul>
-                    </div>
-                <!--corse header ends-->
+<!-- fun facts section start -->
+<section class="fun-facts-section">
+  <div class="container">
+    <div class="box py-2">
+      <div class="row text-center">
+        <div class="col-md col-lg">
+          <div class="fun-facts-item">
+            <h3 class="headings text-info">Estimated Deadline</h3>
+            <text><strong class="heading-para">4 months</strong></text>
+             <p>At 10 hours/week</p>
+          </div>
+        </div>
+        <div class="col-md col-lg">
+          <div class="fun-facts-item">
+            <h3 class="headings text-success">Enrolled By</h3>
+            <text><strong class="heading-para">December 8, 2021</strong></text>
+            
+             <p>Get access to the classroom immediately on enrollment</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg">
+          <div class="fun-facts-item">
+            <h3 class="headings text-danger">Prerequisites</h3>
+            <text><strong class="heading-para">Basic knowledge of network connectivity and OS fundamentals</strong></text>
+            <br>
+            <text><a href="">See prerequisites details</a></text>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
 
-                <!--course tabs begin here-->
-                <nav class="course-tabs">
-                    <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
-                      <button class="nav-link active" id="course-curriculum-tab" data-bs-toggle="tab" data-bs-target="#course-curriculum" type="button" role="tab" aria-controls="course-curriculum" aria-selected="true">Curriculum</button>
-                      <button class="nav-link" id="course-description-tab" data-bs-toggle="tab" data-bs-target="#course-description" type="button" role="tab" aria-controls="course-description" aria-selected="false">Description</button>
-                      <button class="nav-link" id="course-instructor-tab" data-bs-toggle="tab" data-bs-target="#course-instructor" type="button" role="tab" aria-controls="course-instructor" aria-selected="false">Instructor</button>
-                      <button class="nav-link" id="course-reviews-tab" data-bs-toggle="tab" data-bs-target="#course-reviews" type="button" role="tab" aria-controls="course-reviews" aria-selected="false">Reviews</button>
-                    
-                    </div>
-                  </nav>
-                <!--course tabs end here-->
+<!-- fun facts ends -->
 
-                <!--tab panes start-->
-                <div class="tab-content" id="nav-tabContent">
-                    <!--curriculum start-->
-                    <div class="tab-pane fade show active" id="course-curriculum" role="tabpanel" aria-labelledby="course-curriculum-tab">
-                        <div class="course-curriculum box">
-                            <h3 class="text-capitalize mb-4">Course Curriculum</h3>
-                            <!--accordion start-->
-                            <div class="accordion" id="accordion">
-                                <!--accordion item start-->
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="heading-1">
-                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
-                                        Cyber Security Basics <span>2 lessons | 20mins</span>
-                                      </button>
-                                    </h2>
-                                    <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#accordion">
-                                      <div class="accordion-body">
-                                     <ul>
-                                         <li>
-                                             
-                                             <i class="fas fa-play-circle"></i>
-                                             Lorem, ipsum dolor
-                                                <span>06:00</span>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-play-circle"></i>
-                                            Lorem, ipsum dolor
-                                               <span>06:00</span>
-                                       </li>
-                                     </ul>
-                                    </div>
-                                    </div>
-                                  </div>
-                                <!--accordion item ends-->
 
-                                <!--accordion item start-->
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="heading-2">
-                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
-                                        Vulnerbility <span>5 lessons | 1hr 20mins
-                                      </button>
-                                    </h2>
-                                    <div id="collapse-2" class="accordion-collapse collapse show" aria-labelledby="heading-2" data-bs-parent="#accordion">
-                                      <div class="accordion-body">
-                                        <ul>
-                                            <li>
-                                                <i class="fas fa-play-circle"></i>
-                                                Lorem, ipsum dolor
-                                                   <span>06:00</span>
-                                           </li>
-                                           <li>
-                                            <i class="fas fa-play-circle"></i>
-                                            Lorem, ipsum dolor
-                                               <span>06:00</span>
-                                          </li>
-                                          <li>
-                                            <i class="fas fa-play-circle"></i>
-                                            Lorem, ipsum dolor
-                                               <span>06:00</span>
-                                       </li>
-                                       <li>
-                                        <i class="fas fa-play-circle"></i>
-                                             Lorem, ipsum dolor
-                                                <span>06:00</span>
-                                   </li>
-                                   <li>
-                                    <i class="fas fa-play-circle"></i>
-                                    Lorem, ipsum dolor
-                                       <span>06:00</span>
-                               </li>
-                                        </ul>
-                                    </div>
-                                    </div>
-                                  </div>
-                                <!--accordion item ends-->
 
-                                <!--accordion item start-->
+
+
+
+
+
+
+<!--Introduction starts-->
+
+<section class="banner-section2 d-flex align-items-center">
+
+  <div class="container">
+      <div class="row">
+        <div class="card mb-3 intro">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="img/cuber.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Introduction to Cybersecurity</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, nesciunt ea magnam rerum fugit perspiciatis amet hic repellat veniam ullam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, facilis consequuntur similique velit voluptatibus tempora quo atque aut quam commodi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!--Introduction ends here-->
+
+
+
+<!--Program starts-->
+<div class="banner3 d-flex">
+  <div class="container">
+    <div class="row">
+      <div class="card">
+        <h2 class="program-title">Program Offering</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading-1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+              <span>Cyber Security Basics </span>
+            </button>
+          </h2>
+          <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#accordion">
+            <div class="accordion-body">
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt minus eum qui sint mollitia nobis pariatur? Quam, odio ea doloribus exercitationem culpa aspernatur delectus adipisci voluptatem. Rerum nemo autem repellat alias numquam minima et fugiat harum doloremque laudantium eius dolor minus a magni, nisi eos vitae voluptate. Ipsam veritatis explicabo magni nihil deserunt voluptatibus voluptas cumque labore tempora debitis sit mollitia facere accusantium ad velit, necessitatibus libero tempore pariatur deleniti similique inventore nesciunt doloremque! Culpa illo dolore provident harum quisquam nam, delectus totam perspiciatis architecto beatae doloribus magnam dignissimos praesentium mollitia tenetur sapiente ducimus facere labore a aliquid omnis reiciendis!</p>
+          </div>
+          </div>
+        </div>
+      <!--accordion item ends-->
+        <!--accordion item start-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading-2">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+              Vulnerbility <span>
+            </button>
+          </h2>
+          <div id="collapse-2" class="accordion-collapse collapse show" aria-labelledby="heading-2" data-bs-parent="#accordion">
+            <div class="accordion-body">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto laborum repellendus rem voluptatum, illum commodi? Praesentium, maxime! Nemo, temporibus rem quos laudantium mollitia molestiae dolores eveniet aliquam distinctio officiis est obcaecati eligendi inventore asperiores minima vitae impedit voluptates neque amet veritatis consequatur exercitationem deleniti. Nulla impedit et fugiat minus, consectetur, aspernatur aut ipsa debitis velit vero error pariatur quo, rem at tenetur officia unde. Minima iure facilis non neque voluptate.</p>
+          </div>
+          </div>
+        </div>
+      <!--accordion item ends-->
+
+
+        <!--accordion item start-->
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="heading-3">
                                       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="true" aria-controls="collapse-3">
-                                        Penetration Testing <span>12 lessons | 3hrs 30mins
+                                        Penetration Testing <span>
                                       </button>
                                     </h2>
                                     <div id="collapse-3" class="accordion-collapse collapse show" aria-labelledby="heading-3" data-bs-parent="#accordion">
                                       <div class="accordion-body">
-                                        <ul>
-                                            <li>
-                                                <i class="fas fa-play-circle"></i>
-                                                Lorem, ipsum dolor
-                                                   <span>06:00</span>
-                                           </li>
-                                           <li>
-                                            <i class="fas fa-play-circle"></i>
-                                            Lorem, ipsum dolor
-                                               <span>06:00</span>
-                                          </li>
-                                          <li>
-                                            <i class="fas fa-play-circle"></i>
-                                             Lorem, ipsum dolor
-                                                <span>06:00</span>
-                                       </li>
-                                       <li>
-                                        <i class="fas fa-play-circle"></i>
-                                        Lorem, ipsum dolor
-                                           <span>06:00</span>
-                                   </li>
-                                   <li>
-                                    <i class="fas fa-play-circle"></i>
-                                             Lorem, ipsum dolor
-                                                <span>06:00</span>
-                               </li>
-                               <li>
-                                <i class="fas fa-play-circle"></i>
-                                Lorem, ipsum dolor
-                                   <span>06:00</span>
-                           </li>
-                           <li>
-                            <i class="fas fa-play-circle"></i>
-                            Lorem, ipsum dolor
-                               <span>06:00</span>
-                       </li>
-                       <li>
-                        <i class="fas fa-play-circle"></i>
-                        Lorem, ipsum dolor
-                           <span>06:00</span>
-                   </li>
-                   <li>
-                    <i class="fas fa-play-circle"></i>
-                    Lorem, ipsum dolor
-                       <span>06:00</span>
-               </li>
-               <li>
-                <i class="fas fa-play-circle"></i>
-                Lorem, ipsum dolor
-                   <span>06:00</span>
-           </li>
-           <li>
-            <i class="fas fa-play-circle"></i>
-            Lorem, ipsum dolor
-               <span>06:00</span>
-       </li>
-       <li>
-        <i class="fas fa-play-circle"></i>
-        Lorem, ipsum dolor
-           <span>06:00</span>
-   </li>
-                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo laudantium officiis repellendus iure vel modi voluptate rem culpa eum architecto soluta et nisi, necessitatibus exercitationem iusto doloribus eligendi veritatis debitis laborum quas, magnam minima fugiat voluptates sapiente. Cum voluptatem velit, officia, id cupiditate laborum temporibus culpa sit tempore nostrum iure ullam. Sit aliquam voluptatem odio eligendi rerum accusantium quae non explicabo. In veniam nostrum non reprehenderit eaque cumque reiciendis exercitationem totam consequuntur dolores, ut at incidunt amet voluptatum eius necessitatibus illo tempora. Ut sint iure optio laborum!</p>
                                     </div>
                                     </div>
                                   </div>
                                 <!--accordion item ends-->
-
-                                <!--accordion item start-->
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="heading-4">
-                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4">
-                                        Patching <span>6 lessons | 1hr 40mins
-                                      </button>
-                                    </h2>
-                                    <div id="collapse-4" class="accordion-collapse collapse show" aria-labelledby="heading-4" data-bs-parent="#accordion">
-                                      <div class="accordion-body">
-                                        <ul>
-                                            <li>
-                                                <i class="fas fa-play-circle"></i>
-                                             Lorem, ipsum dolor
-                                                <span>06:00</span>
-                                           </li>
-                                           <li>
-                                            <i class="fas fa-play-circle"></i>
-                                            Lorem, ipsum dolor
-                                               <span>06:00</span>
-                                          </li>
-                                          <li>
-                                            <i class="fas fa-play-circle"></i>
-                                            Lorem, ipsum dolor
-                                               <span>06:00</span>
-                                       </li>
-                                       <li>
-                                        <i class="fas fa-play-circle"></i>
-                                        Lorem, ipsum dolor
-                                           <span>06:00</span>
-                                   </li>
-                                   <li>
-                                    <i class="fas fa-play-circle"></i>
-                                             Lorem, ipsum dolor
-                                                <span>06:00</span>
-                               </li>
-                               <li>
-                                <i class="fas fa-play-circle"></i>
-                                Lorem, ipsum dolor
-                                   <span>06:00</span>
-                           </li>
-                                        </ul>
-                                    </div>
-                                    </div>
-                                  </div>
-                                <!--accordion item ends-->
-                            </div>
-                            <!--accordion ends-->
-                        </div>
-                    </div>
-                    <!--curriculum ends-->
-
-                    <!--description start-->
-                    <div class="tab-pane fade" id="course-description" role="tabpanel" aria-labelledby="course-description-tab">
-                        <div class="course-description-tab">
-                            <h3 class="text-capitalize mb-4">Description</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, facilis et sapiente ipsam iusto, maxime eaque voluptates magnam praesentium, soluta neque. Placeat, neque ut sequi at aperiam nulla ullam, enim iusto, modi quaerat aliquid necessitatibus iure.</p>
-                            <h4>For who is this course designed ?</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, dolorem obcaecati exercitationem natus voluptates commodi ipsum quo? Cum numquam culpa sit, dolorum excepturi tenetur inventore?</p>
-                            <h4>Why should you take this course ?</h4>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nihil reiciendis necessitatibus rerum veritatis sunt eos fugit cumque, consectetur nulla non laudantium odio sit possimus magnam ex maiores blanditiis.</p>
-
-                        </div>
-                    </div>
-                    <!--instructor start-->
-                    <div class="tab-pane fade" id="course-instructor" role="tabpanel" aria-labelledby="course-instructor-tab">
-                        <div class="course-instructor box">
-                            <h3 class="mb-3 text-capitalize">Instructor</h3>
-                            <div class="instructor-details">
-                                <div class="details-wrap d-flex align-items-center flex-wrap">
-                                    <div class="left-box me-4">
-                                        <div class="img-box">
-                                            <img class="img rounded-circle" src="img/instructor/1.png" alt="instructor img">
-                                        </div>
-                                    </div>
-                                    <div class="right-box">
-                                        <h4>Jide Adewale <span>(Cyber Security Engineer) </span></h4>
-                                        <ul>
-                                            <li><i class="fas fa-star">5 Rating</i></li>
-                                            <li><i class="fas fa-play-circle"> 10 Courses</i></li>
-                                            <li><i class="fas fa-certificate"> 3000 Reviews</i></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="text">
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus tenetur veniam beatae atque soluta possimus enim illum voluptate accusamus, ipsam, sequi sunt explicabo voluptatem necessitatibus corrupti harum consectetur hic, quidem modi. Minus, earum qui! </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--instructor ends-->
-
-                    <!--reviews start-->
-                    <div class="tab-pane fade" id="course-reviews" role="tabpanel" aria-labelledby="course-reviews-tab">
-                        <div class="course-review box">
-                            <!--review summary start-->
-                            <div class="rating-summary">
-                                <h3 class="mb-4 text-capitalize">Students feedback</h3>
-                                <div class="row">
-                                    <div class="col-md-4 d-flex align-items-center justify-content-center text-center">
-                                        <div class="rating-box">
-                                            <div class="average-rating">5</div>
-                                            <div class="average-stars">
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                                <i class="fas fa-star"></i>
-                                            </div>
-                                            <div class="reviews">230 Reviews</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="rating-bars">
-                                            
-
-                                            <!--rating bars item start-->
-                                            <div class="rating-bars-item">
-                                                <div class="star-text">5 star</div>
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 50%;">
-                                                    </div>
-                                                </div>
-                                                <div class="percent">50%</div>
-                                            </div>
-                                            <!--rating bars item end-->
-
-                                            <!--rating bars item start-->
-                                            <div class="rating-bars-item">
-                                                <div class="star-text">4 star</div>
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 30%;">
-                                                    </div>
-                                                </div>
-                                                <div class="percent">30%</div>
-                                            </div>
-                                            <!--rating bars item end-->
-
-                                            <!--rating bars item start-->
-                                            <div class="rating-bars-item">
-                                                <div class="star-text">3 star</div>
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 20%;">
-                                                    </div>
-                                                </div>
-                                                <div class="percent">20%</div>
-                                            </div>
-                                            <!--rating bars item end-->
-
-                                            <!--rating bars item start-->
-                                            <div class="rating-bars-item">
-                                                <div class="star-text">2 star</div>
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 15%;">
-                                                    </div>
-                                                </div>
-                                                <div class="percent">15%</div>
-                                            </div>
-                                            <!--rating bars item end-->
-
-                                            <!--rating bars item start-->
-                                            <div class="rating-bars-item">
-                                                <div class="star-text">1 star</div>
-                                                <div class="progress">
-                                                    <div class="progress-bar" style="width: 10%;">
-                                                    </div>
-                                                </div>
-                                                <div class="percent">10%</div>
-                                            </div>
-                                            <!--rating bars item end-->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--review ends-->
-
-                            <!--review filter start-->
-                            <div class="review-filter">
-                              <h3 class="mb-4 text-capitalize">review</h3>
-                            <form action="">
-                              <div class="form-group">
-                                <i class="fas fa-chevron-down select-icon"></i>
-                                <select class="form-control" name="" id="">
-                                  <option value="">All Review</option>
-                                  <option value="1">1 star</option>
-                                  <option value="2">2 star</option>
-                                  <option value="3">3 star</option>
-                                  <option value="4">4 star</option>
-                                  <option value="5">5 star</option>
-                                </select>
-                              </div>
-                            </form>
-                            </div>
-                            <!--review filter ends-->
-
-                            <!--review list ends-->
-                            <div class="review-list">
-                                <!--reviews item start-->
-                                <div class="review-item">
-                                    <div class="img-box">
-                                        <img class="img-review" src="img/review/1.png" alt="review img">
-                                    </div>
-                                    <h4>Philip Iku</h4>
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <span>10/11/2021</span>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, asperiores.</p>
-                                </div>
-                                <!--reviews item ends-->
-
-                                <!--reviews item start-->
-                                <div class="review-item">
-                                    <div class="img-box">
-                                        <img class="img-review" src="img/review/1.png" alt="review img">
-                                    </div>
-                                    <h4>Philip Iku</h4>
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <span>10/11/2021</span>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, asperiores.</p>
-                                </div>
-                                <!--reviews item ends-->
-
-                                <!--reviews item start-->
-                                <div class="review-item">
-                                    <div class="img-box">
-                                        <img class="img-review" src="img/review/1.png" alt="review img">
-                                    </div>
-                                    <h4>Philip Iku</h4>
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <span>10/11/2021</span>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, asperiores.</p>
-                                </div>
-                                <!--reviews item ends-->
-
-                                <!--reviews item start-->
-                                <div class="review-item">
-                                    <div class="img-box">
-                                        <img class="img-review" src="img/review/1.png" alt="review img">
-                                    </div>
-                                    <h4>Philip Iku</h4>
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <span>10/11/2021</span>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, asperiores.</p>
-                                </div>
-                                <!--reviews item ends-->
-
-                                <!--reviews item start-->
-                                <div class="review-item">
-                                    <div class="img-box">
-                                        <img class="img-review" src="img/review/1.png" alt="review img">
-                                    </div>
-                                    <h4>Philip Iku</h4>
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <span>10/11/2021</span>
-                                    </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, asperiores.</p>
-                                </div>
-                                <!--reviews item ends-->
-                            </div>
-                            <!--review list ends-->
-                            <button type="button" class="btn btn-theme">more review</button>
-                        </div>
-                    </div>
-                    <!--reviews ends-->
-                </div>
-                <!--tab panes ends-->
-            </div>
-
-            <div class="col-lg-4">
-                <!--corse sidebar starts-->
-                    <div class="course-sidebar box">
-                        <div class="img-box position-relative" data-bs-toggle="modal" data-bs-target="#video-modal">
-                          <img src="img/courses/web-development/3.jpg" class="w-100 h-100" alt="course img">
-                          <div class="play-icon">
-                            <i class="fas fa-play"></i>
-                          </div>
-                        <div class="text-center">
-                          Course Preview
-                        </div>
-                        </div>
-                        <div class="price d-flex align-items-center mb-3">
-                          <span class="price-old">₦ 400k</span>
-                          <span class="price-now">₦ 240k</span>
-                          <span class="price-discount">15% off</span>
-                        </div>
-                        <h3 class="mb-3">Course Features</h3>
-                        <ul class="features-list">
-                          <li>Total 15 lessons</li>
-                          <li>other feature</li>
-                          <li>other feature</li>
-                          <li>other feature</li>
-                          <li>other feature</li>
-                        </ul>
-                        <div class="btn-wrap">
-                          <button type="button" class="btn btn-theme btn-block">Enroll Now</button>
-                        </div>
-                    </div>
-                <!--corse sidebar ends-->
-            </div>
-        </div>
+      </div>
     </div>
+    </div>
+  </div>
 </div>
 
+<!--Introduction ends-->
 
-<!--corse detail section ends-->
+<!--team starts-->
+<div class="profile-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card prof">
+          <div class="img1"><img src="img/backdrop.jpg" alt=""></div>
+          <div class="img2"><img src="img/face/3.jpg" alt=""></div>
+          <div class="main-text">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos nam cum? Sequi tenetur laboriosam at doloribus. Natus error recusandae quia, nesciunt consectetur dicta ea!</p>
+          </div>
+          <div class="socials">
+            <i class="fab fa-facebook-f social-icon"></i>
+            <i class="fab fa-twitter social-icon"></i> 
+            <i class="fab fa-instagram social-icon"></i> 
+            <i class="fab fa-youtube social-icon"></i> 
+            <i class="fab fa-linkedin-in social-icon"></i> 
+          
+          </div>
+        </div>
+      </div>
 
 
+      <div class="col-md-4">
+        <div class="card prof">
+          <div class="img1"><img src="img/backdrop.jpg" alt=""></div>
+          <div class="img2"><img src="img/face/2.jpg" alt=""></div>
+          <div class="main-text">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos nam cum? Sequi tenetur laboriosam at doloribus. Natus error recusandae quia, nesciunt consectetur dicta ea!</p>
+          </div>
+          <div class="socials">
+            <i class="fab fa-facebook-f social-icon"></i>
+            <i class="fab fa-twitter social-icon"></i> 
+            <i class="fab fa-instagram social-icon"></i> 
+            <i class="fab fa-youtube social-icon"></i> 
+            <i class="fab fa-linkedin-in social-icon"></i> 
+          
+          </div>
+        </div>
+      </div>
 
 
+      <div class="col-md-4">
+        <div class="card prof">
+          <div class="img1"><img src="img/backdrop.jpg" alt=""></div>
+          <div class="img2"><img src="img/face/4.jpg" alt=""></div>
+          <div class="main-text">
+            <h2>Lorem ipsum</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos nam cum? Sequi tenetur laboriosam at doloribus. Natus error recusandae quia, nesciunt consectetur dicta ea!</p>
+          </div>
+          <div class="socials">
+            <i class="fab fa-facebook-f social-icon"></i>
+            <i class="fab fa-twitter social-icon"></i> 
+            <i class="fab fa-instagram social-icon"></i> 
+            <i class="fab fa-youtube social-icon"></i> 
+            <i class="fab fa-linkedin-in social-icon"></i> 
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
+<!--team ends-->
 
+    
+
+    
  <!-- footer starts -->
  <footer class="footer">
     <div class="footer-top">
@@ -662,23 +414,6 @@
 </div>
 
 <!-- main container end -->
-
-<!--course preview modal start-->
-<div class="modal fade video-modal js-course-preview-modal" id="video-modal" tabindex="-1" aria-labelledby="video-modal" aria-hidden="true">
-  <div class="modal-dialog modal-lg modal-dialog-centered ">
-    <div class="modal-content">
-      
-      <div class="modal-body p-0">
-      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      <div class="ratio ratio-16x9">
-        <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen></iframe>
-      </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
-<!--course preview modal ends-->
 
 
 <script src="js/bootstrap.bundle.min.js"></script>  
