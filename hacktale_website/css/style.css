@@ -254,6 +254,20 @@ h3 {
 }
 
 /*  ---------------------------------------------------------
+<subscribe section
+-------------------------------------------------------------*/
+.sub-input {
+  border-radius: 15px;
+  border: 1px solid var(--main-color);
+  height: 45px;
+  margin-right: 10px;
+}
+
+.sub {
+  margin-bottom: 20px;
+}
+
+/*  ---------------------------------------------------------
 <potential section
 -------------------------------------------------------------*/
 .potential-head {
@@ -263,10 +277,29 @@ h3 {
 }
 
 /*  ---------------------------------------------------------
+<business value section
+-------------------------------------------------------------*/
+
+.value {
+  height: 400px;
+}
+
+/*  ---------------------------------------------------------
 <card section
 -------------------------------------------------------------*/
-.potential-card:not(:last-child) {
+.potential-card {
   margin-right: 20px;
+}
+
+.course-card {
+  background: linear-gradient(#ffffff, #ffffff) padding-box,
+    /*this is your grey background*/ linear-gradient(to right, #f0de3c, #f19494)
+      border-box;
+  color: #313149;
+  padding: 10px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
 }
 
 .potential-card {
@@ -291,13 +324,6 @@ h3 {
 
 .course-card:not(:last-child) {
   margin-bottom: 20px;
-}
-
-.course-card {
-  border: 2px solid;
-  outline: none;
-  border-color: #edcb9e;
-  box-shadow: 0 0 10px #edcb9e;
 }
 
 .ima {
@@ -988,10 +1014,16 @@ textarea.form-control {
   overflow: hidden;
 }
 
+.circular-img-inner1 {
+  text-align: center;
+  border-radius: 0 0 180px 0;
+  overflow: hidden;
+  box-shadow: 10px 15px var(--main-color);
+}
+
 .circular-img-circle {
   height: 320px;
   width: 320px;
-
   position: absolute;
   left: 70px;
   bottom: 0;
