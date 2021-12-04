@@ -279,9 +279,28 @@ h3 {
 /*  ---------------------------------------------------------
 <business value section
 -------------------------------------------------------------*/
+.value-img > img {
+  border-radius: 0 0 265px 0;
+}
 
-.value {
-  height: 400px;
+.value-img1 > img {
+  border-radius: 0 0 0 265px;
+}
+
+.value-icon > i {
+  background-color: var(--main-color);
+  color: #ffffff;
+  padding: 4px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.sec-head {
+  font-size: 24px;
+}
+
+.letter {
+  font-size: 18px;
 }
 
 /*  ---------------------------------------------------------
