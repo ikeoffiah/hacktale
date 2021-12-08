@@ -131,6 +131,10 @@ h3 {
   height: 1px;
 }
 
+.btn-errol {
+  padding-top: 65px;
+}
+
 /*  ---------------------------------------------------------
 <contact form
 -------------------------------------------------------------*/
@@ -304,15 +308,222 @@ h3 {
 }
 
 /*  ---------------------------------------------------------
+<about section
+-------------------------------------------------------------*/
+.about-head {
+  position: relative;
+  line-height: 1.2em;
+}
+
+.section2 {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.explain1 {
+  margin-top: 30px;
+}
+
+.head-core > h2 {
+  display: inline;
+  margin-left: 10px;
+}
+
+.explain {
+  margin-top: 25px;
+}
+
+.head-core > h3 {
+  display: inline;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+.head-core1 > div {
+  display: inline;
+  float: left;
+  width: 300px;
+}
+
+.head-core > div {
+  display: inline-block;
+}
+
+#sec {
+  display: flex;
+}
+
+.head-core > i {
+  color: var(--main-color);
+  font-size: 32px;
+  display: inline-block;
+}
+
+.core-section {
+  margin-top: 60px;
+}
+
+.head-core1 > i {
+  color: var(--main-color);
+  font-size: 32px;
+  float: left;
+  margin-right: 10px;
+}
+
+.head-core {
+  margin-top: 30px;
+}
+
+.about-head:before {
+  position: absolute;
+  left: 0;
+  top: 1.5em;
+  height: 0;
+  width: 50px;
+  content: "";
+  border-top: 5px solid var(--main-color);
+}
+
+/*  ---------------------------------------------------------
+<subscribe section
+-------------------------------------------------------------*/
+
+.subscribe {
+  background-color: rgb(243, 203, 243);
+}
+
+.sub-form {
+  padding: 20px;
+}
+
+/*  ---------------------------------------------------------
+<FAQ section
+-------------------------------------------------------------*/
+.faq {
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 190px;
+}
+
+.far {
+  margin-bottom: 12px;
+}
+
+.accordion-item1 {
+  background-color: var(--yellow-light);
+  border-radius: 0.4rem;
+  padding: 1rem;
+  box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+}
+
+.accordion-link {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.accordion-link > i {
+  padding: 0.5rem;
+}
+
+.accordion-link .fa-minus {
+  display: none;
+}
+
+.acc .fa-minus {
+  display: none;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: hsl(44, 90%, 72%);
+  transition: max-height 650ms;
+}
+
+.answer::before {
+  content: "";
+  position: absolute;
+  width: 0.6rem;
+  height: 90%;
+  background-color: #ffffff;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.accordion-item1:target .answer {
+  max-height: 28rem;
+}
+
+.accordion-item1:target .accordion-link .fa-plus {
+  display: none;
+}
+
+.active .fa-plus {
+  display: none;
+}
+
+.accordion-item1:target .accordion-link .fa-minus {
+  display: block;
+}
+
+.active .fa-minus {
+  display: block;
+}
+
+.acc-head {
+  margin-bottom: 60px;
+}
+
+.answer p {
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.acc {
+  width: 95%;
+  padding: 10px 10px;
+  cursor: pointer;
+  background-color: var(--yellow-light);
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.acc-body {
+  align-items: center;
+  justify-content: center;
+}
+
+.panel {
+  padding: 0 15px;
+  border-left: 2px solid var(--orange);
+  margin-left: 25px;
+  font-size: 14px;
+  text-align: justify;
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.5s ease-in;
+}
+/*  ---------------------------------------------------------
 <card section
 -------------------------------------------------------------*/
+
 .potential-card {
   margin-right: 20px;
 }
 
 .course-card {
   background: linear-gradient(#ffffff, #ffffff) padding-box,
-    /*this is your grey background*/ linear-gradient(to right, #f0de3c, #f19494)
+    /*this is your grey background*/ linear-gradient(to right, #f758e1, #f19494)
       border-box;
   color: #313149;
   padding: 10px;
