@@ -1281,15 +1281,6 @@ textarea.form-control {
   width: 150px;
 }
 
-.testimonial-section .img-box::before,
-.testimonial-section .img-box::after {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  border: 1px solid var(--red-light);
-  animation: spin 15s linear infinite;
-}
-
 .testimonial-section .img-box::before {
   height: 18 0px;
   width: 180px;
