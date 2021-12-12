@@ -385,11 +385,41 @@ h3 {
 }
 
 /*  ---------------------------------------------------------
+<carousel
+--------------------------------------------------------*/
+.biz-section .carousel-control-prev,
+.biz-section .carousel-control-next {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: var(--main-color);
+  display: inline-block;
+  border-radius: 50%;
+  margin: 10px 254px;
+}
+/*  ---------------------------------------------------------
+<trusted by section 
+-------------------------------------------------------------*/
+
+.partner > img {
+  width: 100px;
+  height: 100px;
+}
+
+/*  ---------------------------------------------------------
 <subscribe section
 -------------------------------------------------------------*/
 
 .subscribe {
   background-color: rgb(243, 203, 243);
+}
+
+.subs {
+  padding: 50px;
+}
+
+.sub-head > h5 {
+  font-size: 37px;
 }
 
 .sub-form {
@@ -516,6 +546,14 @@ h3 {
 /*  ---------------------------------------------------------
 <card section
 -------------------------------------------------------------*/
+
+.course {
+  height: 250px;
+}
+
+.course-gh {
+  margin-right: 10px;
+}
 
 .potential-card {
   margin-right: 20px;
@@ -1188,7 +1226,7 @@ textarea.form-control {
 
 .banner-section {
   padding: 80px 0;
-  min-height: 680px;
+  min-height: 380px;
 }
 
 .banner-section2 {

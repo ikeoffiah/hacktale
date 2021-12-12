@@ -6,6 +6,15 @@
     --bs-gutter-x: 30px;
   }
 
+  .course {
+    width: 100%;
+    height: 350px;
+  }
+
+  .cours-card {
+    margin-bottom: 15px;
+  }
+
   .prof {
     margin-bottom: 20px;
   }
