@@ -6,6 +6,11 @@
     --bs-gutter-x: 30px;
   }
 
+  .biz-section .carousel-control-prev,
+  .biz-section .carousel-control-next {
+    display: none;
+  }
+
   .course {
     width: 100%;
     height: 350px;
