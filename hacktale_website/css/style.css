@@ -771,7 +771,8 @@ h3 {
 .menu-item > a {
   display: block;
   padding: 24px 0;
-  font-weight: 400;
+  font-size: 21px;
+  font-weight: 600;
   color: var(--black-90);
   text-transform: capitalize;
   transition: color 0.1s ease;
