@@ -1446,6 +1446,10 @@ textarea.form-control {
   border-top: 1px solid var(--border-color-2);
 }
 
+.footer-logo {
+  height: 50px;
+}
+
 .footer-item {
   margin: 0 0 30px;
 }
