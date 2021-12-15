@@ -1410,7 +1410,7 @@ textarea.form-control {
   height: 35px;
   width: 35px;
   background-color: var(--main-color);
-  display: inline-block;
+  display: inline;
   border-radius: 50%;
   margin: 0 4px;
 }
