@@ -16,6 +16,12 @@
     height: 35rem;
   }
 
+  .sub-2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 10000px;
+  }
+
   .course-cards {
     margin-bottom: 15px;
   }
@@ -37,8 +43,7 @@
     margin-bottom: 20px;
   }
   .sub-input {
-    margin-left: 15px;
-    width: 400px;
+    width: 300px;
     margin-bottom: 10px;
   }
 
