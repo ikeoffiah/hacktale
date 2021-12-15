@@ -1523,12 +1523,8 @@ textarea.form-control {
   margin-right: 5px;
 }
 
-.footer-bottom {
-  border-top: 1px solid var(--border-color-2);
-}
-
 .footer-item ul a {
-  font-size: 24px;
+  font-size: 21px;
 }
 
 .footer-item h3 {
@@ -1536,7 +1532,7 @@ textarea.form-control {
 }
 
 .footer-item ul {
-  font-size: 24px;
+  font-size: 21px;
 }
 
 .footer-bottom p {
