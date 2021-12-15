@@ -11,6 +11,19 @@
     display: none;
   }
 
+  .cous-card {
+    width: auto;
+    height: 35rem;
+  }
+
+  .course-cards {
+    margin-bottom: 15px;
+  }
+
+  .card-imgs {
+    height: 400px;
+  }
+
   .course {
     width: 100%;
     height: 350px;
