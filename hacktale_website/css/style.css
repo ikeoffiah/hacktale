@@ -2,7 +2,7 @@
 <googlefont
 -------------------------------------------------------------*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&display=swap");
 
 /*  ---------------------------------------------------------
 <
@@ -22,7 +22,7 @@
   --black-alpha-40: hsla(0, 0%, 0%, 0.4);
   --yellow-light: hsl(44, 95%, 83%);
   --green-light: hsl(158, 68%, 75%);
-  --red-light: hsl(0, 84%, 80%);
+  --red-light: #6d7975;
   --orange-light: hsl(22, 85%, 80%);
   --select-box-bg-color: hsl(0, 0%, 100%);
   --border-color-1: hsl(0, 0%, 90%);
@@ -426,7 +426,7 @@ h3 {
 -------------------------------------------------------------*/
 
 .subscribe {
-  background-color: rgb(243, 203, 243);
+  background-color: #b0b3a2;
 }
 
 .subs {
@@ -748,8 +748,12 @@ h3 {
   border-bottom: 1px solid var(--border-color-2);
 }
 
+.logo {
+  height: 70px;
+  padding-top: 10px;
+}
+
 .header-logo a {
-  font-size: 26px;
   text-transform: uppercase;
   font-weight: 700;
   color: var(--black-70);
