@@ -666,7 +666,7 @@ h3 {
 }
 
 .section-title .sub-title {
-  font-size: 25px;
+  font-size: 44px;
   font-weight: 600;
   color: var(--black-90);
 }
@@ -1250,7 +1250,7 @@ textarea.form-control {
 
 .banner-section4 {
   padding-top: 40px;
-  padding-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .banner-section2 {
