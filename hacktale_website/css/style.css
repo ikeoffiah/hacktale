@@ -1526,6 +1526,18 @@ textarea.form-control {
   border-top: 1px solid var(--border-color-2);
 }
 
+.footer-item ul a {
+  font-size: 24px;
+}
+
+.footer-item h3 {
+  font-size: 26px;
+}
+
+.footer-item ul {
+  font-size: 24px;
+}
+
 .footer-bottom p {
   font-size: 14px;
 }
