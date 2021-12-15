@@ -281,8 +281,8 @@ h3 {
 }
 
 .sub-2 {
-  margin-top: 70px;
-  margin-left: 150px;
+  margin-top: 60px;
+  margin-left: 540px;
 }
 
 .sub {
@@ -438,15 +438,12 @@ h3 {
 }
 
 .subs {
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .sub-head > h5 {
   font-size: 37px;
-}
-
-.sub-form {
-  padding: 20px;
 }
 
 /*  ---------------------------------------------------------
