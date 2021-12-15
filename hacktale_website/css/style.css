@@ -1293,15 +1293,20 @@ textarea.form-control {
 <circular image
 -------------------------------------------------------------*/
 .circular-img {
-  max-width: 360px;
+  max-width: 460px;
   margin: auto;
   position: relative;
   z-index: 1;
 }
 
+.headimg {
+  width: 460px;
+  height: 460px;
+}
+
 .circular-img-inner {
   text-align: center;
-  border-radius: 0 0 200px 200px;
+  border-radius: 0 0 300px 300px;
   overflow: hidden;
 }
 
