@@ -13,7 +13,7 @@
 
   .cous-card {
     width: auto;
-    height: 40rem;
+    height: 33rem;
   }
 
   .sub-2 {
@@ -26,7 +26,7 @@
   }
 
   .card-imgs {
-    height: 400px;
+    height: 200px;
   }
 
   .course {
@@ -54,11 +54,6 @@
 @media (max-width: 991px) {
   .header {
     padding: 12px 0;
-  }
-
-  .cous-card {
-    width: auto;
-    height: 48rem;
   }
 
   .header-backdrop,
