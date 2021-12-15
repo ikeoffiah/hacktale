@@ -1463,6 +1463,7 @@ textarea.form-control {
 .footer {
   padding: 50px 0 20px;
   border-top: 1px solid var(--border-color-2);
+  margin-left: 200px;
 }
 
 .footer-logo {
