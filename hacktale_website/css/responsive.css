@@ -11,6 +11,10 @@
     display: none;
   }
 
+  .btn-errol {
+    padding-top: 10px;
+  }
+
   .cous-card {
     width: auto;
     height: 33rem;
