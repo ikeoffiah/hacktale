@@ -1263,6 +1263,10 @@ textarea.form-control {
   color: var(--main-color);
 }
 
+.banner-text p {
+  font-size: 21px;
+}
+
 .banner-text h1 {
   font-size: 44px;
   font-weight: 700;
@@ -1302,6 +1306,7 @@ textarea.form-control {
 .headimg {
   width: 460px;
   height: 460px;
+  margin-left: 70px;
 }
 
 .circular-img-inner {
