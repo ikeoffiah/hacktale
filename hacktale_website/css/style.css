@@ -304,7 +304,8 @@ h3 {
 
 .value-img1 > img {
   border-radius: 0 0 0 265px;
-  height: 550px;
+  margin-top: 100px;
+  height: 500px;
 }
 
 .value-icon > i {
@@ -313,6 +314,10 @@ h3 {
   padding: 4px;
   border-radius: 50%;
   font-size: 18px;
+}
+
+.letter {
+  padding-top: 10px;
 }
 
 .sec-head {
