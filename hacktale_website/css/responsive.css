@@ -19,7 +19,6 @@
   .sub-2 {
     margin-top: 15px;
     margin-left: 0px;
-    margin-right: 10000px;
   }
 
   .course-cards {
@@ -55,6 +54,11 @@
 @media (max-width: 991px) {
   .header {
     padding: 12px 0;
+  }
+
+  .cous-card {
+    width: auto;
+    height: 100rem;
   }
 
   .header-backdrop,
