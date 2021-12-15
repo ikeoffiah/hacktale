@@ -11,6 +11,10 @@
     display: none;
   }
 
+  .value-img1 > img {
+    height: auto;
+  }
+
   .btn-errol {
     padding-top: 10px;
   }
