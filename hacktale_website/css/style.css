@@ -1345,6 +1345,10 @@ textarea.form-control {
 <testimonial
 -------------------------------------------------------------*/
 
+.testimonial-section {
+  margin-top: 40px;
+}
+
 .testimonial-section .img-box {
   height: 150px;
   width: 150px;
