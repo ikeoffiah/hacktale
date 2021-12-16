@@ -311,6 +311,10 @@ h3 {
   height: 400px;
 }
 
+.value-img2 > img {
+  border-radius: 0 0 0 265px;
+}
+
 .value-icon > i {
   background-color: var(--main-color);
   color: #ffffff;
@@ -1477,16 +1481,14 @@ textarea.form-control {
 -------------------------------------------------------------*/
 .footer {
   padding: 50px 0 20px;
-  border-top: 1px solid var(--border-color-2);
-  margin-left: 200px;
+}
+
+.container1 {
+  padding-right: 140px;
 }
 
 .footer-logo {
   height: 50px;
-}
-
-.footer-item {
-  margin: 0 0 30px;
 }
 
 .footer-item h3 {
@@ -1551,6 +1553,23 @@ textarea.form-control {
 
 .footer-bottom p {
   font-size: 14px;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+}
+
+/*  ---------------------------------------------------------
+<quotes
+-------------------------------------------------------------*/
+
+.quote {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.quotes {
+  padding: 40px;
 }
 
 /*  ---------------------------------------------------------
