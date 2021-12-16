@@ -339,6 +339,11 @@ h3 {
   line-height: 1.2em;
 }
 
+.about-head1 {
+  position: relative;
+  line-height: 1.2em;
+}
+
 .abot-context {
   margin-top: 50px;
 }
@@ -416,6 +421,16 @@ h3 {
 }
 
 .about-head:before {
+  position: absolute;
+  left: 48%;
+  top: 1.5em;
+  height: 0;
+  width: 50px;
+  content: "";
+  border-top: 5px solid var(--main-color);
+}
+
+.about-head1:before {
   position: absolute;
   left: 0;
   top: 1.5em;
