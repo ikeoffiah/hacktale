@@ -6,6 +6,14 @@
     --bs-gutter-x: 30px;
   }
 
+  .foot {
+    margin-top: 25px;
+  }
+
+  .foots {
+    padding-left: 0px;
+  }
+
   .biz-section .carousel-control-prev,
   .biz-section .carousel-control-next {
     display: none;
