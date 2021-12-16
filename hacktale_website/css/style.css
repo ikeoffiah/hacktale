@@ -339,6 +339,10 @@ h3 {
   line-height: 1.2em;
 }
 
+.abot-context {
+  margin-top: 50px;
+}
+
 .section2 {
   margin-top: 70px;
   margin-bottom: 100px;
@@ -352,6 +356,11 @@ h3 {
 .explain2 {
   margin-top: 15px;
   font-size: 21px;
+}
+
+.explain3 {
+  margin-top: 15px;
+  font-size: 18px;
 }
 
 .head-core > h2 {
