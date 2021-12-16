@@ -346,6 +346,12 @@ h3 {
 
 .explain1 {
   margin-top: 30px;
+  font-size: 21px;
+}
+
+.explain2 {
+  margin-top: 15px;
+  font-size: 21px;
 }
 
 .head-core > h2 {
@@ -355,6 +361,8 @@ h3 {
 
 .explain {
   margin-top: 25px;
+  font-size: 25px;
+  font-weight: 550;
 }
 
 .head-core > h3 {
